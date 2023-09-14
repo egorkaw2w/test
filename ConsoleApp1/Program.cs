@@ -25,7 +25,13 @@ do
     Console.WriteLine("3. black?");
     Console.WriteLine("4.nothing");
 
-
     txt = Console.ReadLine();
+    if (txt == "1")
+    {
+        Console.WriteLine("Why not brown?");
+    }
+    else if (txt == 2) {
+        Console.WriteLine("Why  this?");
+            }
 
 } while (txt != "4");
